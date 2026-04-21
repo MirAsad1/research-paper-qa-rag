@@ -109,7 +109,7 @@ streamlit run app.py
 | LangChain | RAG pipeline framework |
 | ChromaDB | Local vector database |
 | Sentence Transformers | Free text embeddings (`all-MiniLM-L6-v2`) |
-| Groq (Llama 3) | LLM for answer generation |
+| Groq (Llama 3.1) | LLM for answer generation |
 | PyMuPDF | PDF text extraction |
 | Streamlit | Web UI |
 
