@@ -43,7 +43,7 @@ research-rag/
 │   ├── retriever.py      # ChromaDB similarity search
 │   └── chain.py          # LangChain QA chain with Groq
 ├── data/
-│   ├── papers/           # Place your PDF files here
+│   ├── research_papers/  # Place your PDF files here
 │   └── chroma_db/        # Auto-generated vector store
 ├── app.py                # Streamlit web interface
 ├── requirements.txt      # Project dependencies
@@ -88,7 +88,7 @@ GROQ_API_KEY=your_groq_api_key_here
 Get a free API key at [console.groq.com](https://console.groq.com)
 
 ### 5. Add your research papers
-Place your PDF files inside the `data/papers/` folder.
+Place your PDF files inside the `data/research_papers/` folder.
 
 ### 6. Ingest the papers
 ```bash
